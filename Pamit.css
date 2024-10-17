@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    height: 300px;
+    background-color: rgb(246, 246, 251);
+}
+
+.head-college {
+    height: 60px;
+    background-color: #064469;
+    color: #d0d7e1;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-1 {
+    height: 46px;
+    width: 448px;
+    display: flex;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.social-media {
+    height: 30px;
+    width: 300px;
+    margin-left: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.insta, .linkedin, .yt, .twitter, .fb  {
+    height: 38px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#c4d3e8;
+    color: #064469;
+    font-size: 27px;
+    border-radius: 50%;
+}
+
+.head2-college {
+    height: 252px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.logo  {
+    background-image: url(Images/i2it-logo.png);
+    height: 200px;
+    width: 140px;
+    margin-left: 90px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.name-2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.college-name {
+    font-size: 40px;
+    color: #072d44;
+}
+
+.college-info {
+    font-size: 20px;
+    text-align: center;
+    color: #072d44;
+    
+}
+
+.faculty-container {
+    background-color: #c4d3e8;
+}
+
+.faculty-name {
+    color: #072d44;
+    font-size: 75px;
+    font-weight: 800;
+    padding-top:110px;
+    padding-left: 250px;
+}
+
+.sub-container {
+    background-color: #c4d3e8;
+    color: #072d44;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image {
+    height: 500px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    background-size: cover;
+    background-image: url(Images/Pamit.jpg);
+    background-repeat: no-repeat;
+}
+
+.facu-info {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.degree {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name-deg1 {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.name-deg2 {
+    width: 200px;
+}
+
+.expertise {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.expertise1 {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.expertise2 {
+    /* height: 25px; */
+    /* width: 245px; */
+    /* border: 1px solid #072d44; */
+    border-radius: 10px;
+}
+
+
+
+.line1 {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    height: 1px;
+    width: 280px;
+    background-color: #072d44;
+}
+
+.info {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.email1 {
+    padding-top: 20px;
+}
+
+.email2 {
+    text-decoration: underline;
+}
+
+.line2 {
+    margin-top: 60px;
+    /* margin-bottom: 20px; */
+    height: 1px;
+    width: 280px;
+    background-color: #072d44;
+}
+
+.image-container2 {
+    position: relative;
+}
+
+.image-container2 img {
+    position: absolute;
+    height: 680px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.overlay2 {
+    position: absolute;
+    width: 100%;
+    height: 680px;
+    z-index: -1;
+    background-color: #042d46b5;
+}
+
+.main-contact {
+    color: #c4d3e8;
+}
+
+.contact-box {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-i {
+    padding-right: 20px;
+    font-size: 25px
+}
+
+.linef {
+    height: 1px;
+    width: 50%;
+    background-color: #e0e5e9;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.part {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.message-i, .location-i {
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.foot-info-box {
+    padding-left: 40px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #c4d3e8;
+}
+
+.foot-info-box h3 {
+    padding: 8px;
+}
+
+.foot-info-box .boxf li {
+    list-style-type: none;
+    text-transform: capitalize;
+}
